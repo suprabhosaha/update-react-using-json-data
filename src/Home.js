@@ -29,6 +29,7 @@ const Home = () => {
                 
                 <Card.Body>
                   <Card.Title>{book.title}</Card.Title>
+                  <Card.Text>{book.author}</Card.Text>
                   <Card.Text>{book.description}</Card.Text>
                 </Card.Body>
               </Card>
